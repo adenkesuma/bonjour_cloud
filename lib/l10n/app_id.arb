@@ -1,0 +1,17 @@
+{
+  "dashboard": "Beranda",
+  "base": "Dasar",
+  "customer": "Pelanggan",
+  "supplier": "Pemasok",
+  "stock": "Stok",
+  "gudang": "Gudang",
+  "transaksi": "Transaksi",
+  "penjualan": "Penjualan",
+  "pembelian": "Pembelian",
+  "pemindahan": "Pemindahan",
+  "pelunasan": "Pelunasan",
+  "settings": "Pengaturan",
+  "user": "Pengguna",
+  "logout": "Keluar",
+  "setting2": "Pengaturan 2"
+}

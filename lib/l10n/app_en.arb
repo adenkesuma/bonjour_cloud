@@ -1,0 +1,17 @@
+{
+  "dashboard": "Dashboard",
+  "base": "Base",
+  "customer": "Customer",
+  "supplier": "Supplier",
+  "stock": "Stock",
+  "gudang": "Warehouse",
+  "transaksi": "Transactions",
+  "penjualan": "Sales",
+  "pembelian": "Purchases",
+  "pemindahan": "Assembly",
+  "pelunasan": "Payments",
+  "settings": "Settings",
+  "user": "User",
+  "logout": "Logout",
+  "setting2": "Setting 2"
+}
