@@ -64,7 +64,6 @@ Digunakan untuk menyimpan dan mengelola **gambar produk atau dokumen** yang diun
 
 ### 1. Clone Repositori
 
-```bash
 ## 💻 Cara Instalasi & Menjalankan Proyek di Lokal (Development)
 
 ### 📦 Prasyarat
