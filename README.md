@@ -78,17 +78,19 @@ Sebelum mulai, pastikan kamu sudah menginstal:
 
 ---
 
-### 🔧 1. Clone Proyek dari GitHub
+## 🔧 1. Clone Proyek dari GitHub
 
-```bash
 git clone https://github.com/username/moku.git
 cd moku
-🔌 2. Install Dependency Flutter
-bash
+
+## 2. Install Dependency Flutter
+
 Salin
 Edit
 flutter pub get
-🔑 3. Konfigurasi Firebase
+
+
+## 3. Konfigurasi Firebase
 Masuk ke Firebase Console
 
 Buat project baru bernama moku
@@ -111,7 +113,7 @@ Authentication → metode Email/Password
 
 Cloud Firestore → mode Start in test mode
 
-🖼️ 4. Konfigurasi Cloudinary
+## 4. Konfigurasi Cloudinary
 Daftar atau login ke https://cloudinary.com
 
 Masuk ke Dashboard, lalu salin:
@@ -134,8 +136,8 @@ class CloudinaryConfig {
   static const String apiKey = 'YOUR_API_KEY';
   static const String apiSecret = 'YOUR_API_SECRET';
 }
-▶️ 5. Jalankan Proyek di Emulator / Device
-bash
+
+## 5. Jalankan Proyek di Emulator / Device
 Salin
 Edit
 flutter run
