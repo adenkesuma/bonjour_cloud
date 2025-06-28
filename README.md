@@ -85,8 +85,6 @@ cd moku
 
 ## 2. Install Dependency Flutter
 
-Salin
-Edit
 flutter pub get
 
 
@@ -103,9 +101,6 @@ Unduh file google-services.json dari Firebase
 
 Tempatkan file tersebut di dalam folder:
 
-bash
-Salin
-Edit
 /android/app/google-services.json
 Aktifkan layanan berikut di Firebase:
 
@@ -128,9 +123,6 @@ Simpan kredensial Cloudinary ini di file konfigurasi lokal (misalnya lib/config.
 
 Contoh:
 
-dart
-Salin
-Edit
 class CloudinaryConfig {
   static const String cloudName = 'YOUR_CLOUD_NAME';
   static const String apiKey = 'YOUR_API_KEY';
@@ -138,8 +130,6 @@ class CloudinaryConfig {
 }
 
 ## 5. Jalankan Proyek di Emulator / Device
-Salin
-Edit
 flutter run
 
 Link video demo aplikasi
