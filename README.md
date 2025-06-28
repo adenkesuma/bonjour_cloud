@@ -20,7 +20,7 @@
 
 ## 🌐 URL Aplikasi Live
 
-🔗 [https://moku-inventory.web.app](https://moku-inventory.web.app)
+🔗 https://mikroskilacid-my.sharepoint.com/:u:/g/personal/221111805_students_mikroskil_ac_id/EcQPYYgWUlZAmdDiFQ0VqL8Bd7Y38cYyFUXOE8mPHvGvcg?e=mZ16Pp
 
 ---
 
@@ -65,9 +65,81 @@ Digunakan untuk menyimpan dan mengelola **gambar produk atau dokumen** yang diun
 ### 1. Clone Repositori
 
 ```bash
+## 💻 Cara Instalasi & Menjalankan Proyek di Lokal (Development)
+
+### 📦 Prasyarat
+
+Sebelum mulai, pastikan kamu sudah menginstal:
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) versi terbaru
+- Android Studio / VS Code (dengan plugin Flutter & Dart)
+- Emulator Android ATAU perangkat Android fisik
+- Akun Firebase
+- Akun Cloudinary
+
+---
+
+### 🔧 1. Clone Proyek dari GitHub
+
+```bash
 git clone https://github.com/username/moku.git
 cd moku
+🔌 2. Install Dependency Flutter
+bash
+Salin
+Edit
+flutter pub get
+🔑 3. Konfigurasi Firebase
+Masuk ke Firebase Console
 
+Buat project baru bernama moku
+
+Tambahkan aplikasi Android ke project tersebut:
+
+Package name: com.example.moku (atau sesuai di android/app/build.gradle)
+
+Unduh file google-services.json dari Firebase
+
+Tempatkan file tersebut di dalam folder:
+
+bash
+Salin
+Edit
+/android/app/google-services.json
+Aktifkan layanan berikut di Firebase:
+
+Authentication → metode Email/Password
+
+Cloud Firestore → mode Start in test mode
+
+🖼️ 4. Konfigurasi Cloudinary
+Daftar atau login ke https://cloudinary.com
+
+Masuk ke Dashboard, lalu salin:
+
+cloud_name
+
+api_key
+
+api_secret
+
+Simpan kredensial Cloudinary ini di file konfigurasi lokal (misalnya lib/config.dart) atau gunakan environment variable jika sudah setup .env
+
+Contoh:
+
+dart
+Salin
+Edit
+class CloudinaryConfig {
+  static const String cloudName = 'YOUR_CLOUD_NAME';
+  static const String apiKey = 'YOUR_API_KEY';
+  static const String apiSecret = 'YOUR_API_SECRET';
+}
+▶️ 5. Jalankan Proyek di Emulator / Device
+bash
+Salin
+Edit
+flutter run
 
 Link video demo aplikasi
 https://mikroskilacid-my.sharepoint.com/:v:/g/personal/221111805_students_mikroskil_ac_id/EYZb0LeJ391OiYlm6pmKT_IB5yujvId6J84zkillr7qeTA?e=T1kuxT
