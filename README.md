@@ -1,3 +1,8 @@
+### DISCLAIMER
+penyusunan folder tidak menggunakan struktur seperti di tugas yaitu FE & BE, dikarenakan aplikasi bersifat mobile menggunakan stack flutter + firebase.
+alhasil tidak diperlukan nya lagi folder BACKEND pada aplikasi karena BACKEND nya itu sendiri sudah di firebase tanpa menulis kode ulang, dan tidak juga diperlukan folder FRONTEND karena yang ditampilkan di repository hanya FRONTEND
+MOHON BISA DIMENGERTI 🙏
+
 #Kelompok Bonjour
 
 # Moku 📦 — Aplikasi Mobile Inventory Gudang
